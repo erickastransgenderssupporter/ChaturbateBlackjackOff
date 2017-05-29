@@ -6,6 +6,10 @@ class Deck {
       this.build(); 
     }
 
+    draw() {
+        return this.cards.pop();
+    }
+
     private build() {
         for(let i in Suit) {
             for(let j=2; j <=14; ++j) {
