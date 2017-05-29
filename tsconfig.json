@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "noImplicitAny": true,
+        "outFile": "distrobution/app.js"
+    },
+    "include": [
+        "source/**/*.ts"
+    ]
+}
